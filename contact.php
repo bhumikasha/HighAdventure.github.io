@@ -88,6 +88,6 @@ $headers .= "From:". $_POST['email'] . "\r\n";
 
 mail($to, $subject, $message, $headers);
 
-print "<script>alert('Your Request Send. We will contact you soon.'); window.location = 'index.htm'</script>";
+print "<script>alert('Your Request Send. We will contact you soon.'); window.location = 'index.html'</script>";
 
 ?>
