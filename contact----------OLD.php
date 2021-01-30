@@ -8,10 +8,10 @@ function authSendEmail($from, $namefrom, $to, $nameto, $subject, $message)
 {
 //SMTP + SERVER DETAILS
 /* * * * CONFIGURATION START * * * */
-$smtpServer = "mail.trekkinghimalayas.in";
+$smtpServer = "mail.tourthehimalayas.com";
 $port = "25";
 $timeout = "30";
-$username = "info@trekkinghimalayas.in";
+$username = "info@tourthehimalayas.com";
 $password = "high88088";
 $localhost = "localhost";
 $newLine = "\r\n";
@@ -82,8 +82,8 @@ $logArray['quitresponse'] = "$smtpResponse";
 }
 
 // get posted data into local variables
-$EmailFrom 	= "info@trekkinghimalayas.in";
-$EmailTo 	= "info@trekkinghimalayas.in,hiadventure@gmail.com";
+$EmailFrom 	= "info@tourthehimalayas.com";
+$EmailTo 	= "info@tourthehimalayas.com,hiadventure@gmail.com";
 $Subject 	= "From website";
 $fname 		= Trim(stripslashes($_POST['name'])); 
 $cell 		= Trim(stripslashes($_POST['mobile'])); 

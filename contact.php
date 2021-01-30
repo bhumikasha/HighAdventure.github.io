@@ -1,6 +1,6 @@
 <?php
 
-$to				= "info@trekkinghimalayas.in,highadventure@rediffmail.com, hiadventure@gmail.com";
+$to				= "info@tourthehimalayas.com,highadventure@rediffmail.com, hiadventure@gmail.com";
 $subject		= "Website eMail from High Adventure";
 $headers  		= "MIME-Version: 1.0" . "\r\n";
 $headers 		= "Content-type: text/html; charset=iso-8859-1" . "\r\n";
